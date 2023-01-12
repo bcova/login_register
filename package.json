@@ -22,8 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "seed:dev": "nodemon /db/seed.js",
-    "seed": "node /db/seed.js",
+    "seed:dev": "nodemon ./db/seed.js",
+    "seed": "node ./db/seed.js",
     "start:dev": "nodemon ./server.js"
   },
   "eslintConfig": {
